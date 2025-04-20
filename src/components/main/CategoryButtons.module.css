@@ -1,0 +1,12 @@
+.categoryButton{
+    width:6rem;
+    height:4rem;
+    margin:1rem;
+    border:1px solid brown;
+    border-radius:1rem;
+    background-color:white;
+    color:brown;
+    font-size:1.3rem;
+    font-weight:bold;
+    cursor:pointer;
+}
