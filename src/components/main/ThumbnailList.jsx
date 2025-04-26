@@ -26,7 +26,8 @@ function ThumbnailList() {
         {/* a 태그 대신 react에서 제공하는 Link를 쓰는 이유는 a 태그는 클릭시 기본적으로 새로고침 되기 때문이다.*/}
         {/* JSX에서 inline style은 객체로 작성해야 하기 때문에 중괄호가 두 개 겹쳐진다.*/ }
         {testList?.map((test) => (  
-            <Link to={`${base_url}/${test?.info?.mainUrl}`} key={test?.info?.mainUrl}>
+            //<Link to={`${base_url}/${test?.info?.mainUrl}`} key={test?.info?.mainUrl}>//로컬에서 개발할 때는base_url 붙임
+            <Link to={`/${test?.info?.mainUrl}`} key={test?.info?.mainUrl}>
                 <img
                     style={{width:"100%"} }
                     src={test?.info?.thumbImage }

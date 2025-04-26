@@ -3,7 +3,8 @@ import Main from './page/Main.jsx';
 import Test from './page/Test.jsx';
 import TestResult from './page/TestResult.jsx';
 
-export const base_url = "http://localhost:5173";
+//export const base_url = "http://localhost:5173";
+export const base_url = "http://ikinye.net";
 
 function App() {
   return (
